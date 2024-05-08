@@ -17,4 +17,3 @@ About Dataset
 - **merchant_segment** Shows the segment where the merchant is located in iyzico
 - **net_payment_count** The number of net (payment - cancel - refund) transactions of the workplace in the related month
 
-Translated with DeepL.com (free version)
