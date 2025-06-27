@@ -10,16 +10,19 @@ Predict the number of net payment transactions (i.e., payment - cancel - refund)
 📁 Dataset Description
 The dataset consists of categorical metadata describing merchant attributes and their monthly transaction volumes.
 
-Features
-Column	Description
-merchant_id	Unique identifier for each merchant (masked)
-month_id	Transaction month in YYYYMM format
-merchant_source	Source from which the merchant joined
-settlement_period	Frequency of payout to the merchant
-working_type	Type of workplace
-mcc_id	Merchant category code
-merchant_segment	Segment classification within the platform
-net_payment_count	Target variable — net transactions for the given month
+### 📌 Features
+
+| **Column**           | **Description**                                         |
+|----------------------|---------------------------------------------------------|
+| `merchant_id`        | Unique identifier for each merchant (masked)            |
+| `month_id`           | Transaction month in `YYYYMM` format                    |
+| `merchant_source`    | Source from which the merchant joined                   |
+| `settlement_period`  | Frequency of payout to the merchant                     |
+| `working_type`       | Type of workplace                                       |
+| `mcc_id`             | Merchant category code                                  |
+| `merchant_segment`   | Segment classification within the platform              |
+| `net_payment_count`  | Target variable — net transactions for the given month  |
+
 
 All columns, except net_payment_count, are categorical.
 
