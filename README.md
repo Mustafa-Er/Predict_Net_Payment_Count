@@ -26,14 +26,13 @@ The dataset consists of categorical metadata describing merchant attributes and 
 
 All columns, except net_payment_count, are categorical.
 
-🔍 Exploratory Data Analysis (EDA)
-Merchant Source: Mostly from sources 1 and 2; source 3 is rarely used.
+### 🔍 Exploratory Data Analysis (EDA)
 
-Settlement Period: Predominantly period 1, followed by 3. Period 2 is rarely used.
+- **Merchant Source**: Mostly from sources `1` and `2`; source `3` is rarely used.
+- **Settlement Period**: Predominantly period `1`, followed by `3`. Period `2` is rarely used.
+- **Working Type**: Types `5` and `6` dominate; types `1`, `3`, and `4` are nearly absent.
+- **Merchant Segment**: Vast majority belong to segment `4`.
 
-Working Type: Types 5 and 6 dominate; types 1, 3, and 4 are nearly absent.
-
-Merchant Segment: Vast majority belong to segment 4.
 
 📊 Statistical Analysis
 Since net_payment_count does not follow a normal distribution, non-parametric tests were applied:
